@@ -1,0 +1,84 @@
+object Form1: TForm1
+  Left = 498
+  Top = 236
+  Caption = 'Tela de Login'
+  ClientHeight = 246
+  ClientWidth = 386
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 31
+    Top = 25
+    Width = 62
+    Height = 23
+    Caption = 'Usu'#225'rio'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 31
+    Top = 97
+    Width = 53
+    Height = 23
+    Caption = 'Senha'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object EdtUsuario: TEdit
+    Left = 31
+    Top = 54
+    Width = 330
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object EdtSenha: TEdit
+    Left = 31
+    Top = 126
+    Width = 330
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object BtnLogin: TButton
+    Left = 31
+    Top = 176
+    Width = 330
+    Height = 41
+    Caption = 'Login'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = BtnLoginClick
+  end
+end
